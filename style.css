@@ -4,3 +4,57 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em;
+
+    border: 2px solid black;
+
+    background-color: wheat;
+}
+
+.logo img {
+    height: 100px;
+    width: 150px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    gap: 50px;
+
+    background-color: wheat;
+
+    border: 2px solid blue;
+}
+
+.hero-section-one {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-section-one button {
+    width: 100px;
+    padding: .25em;
+}
+
+.hero-section-two img {
+    height: 250px;
+    width: 400px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.information-card img {
+    height: 200px;
+    width: 200px;
+}
