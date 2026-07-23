@@ -108,6 +108,7 @@
 .cta-button-container {
     display: flex;
     padding: 2em 2em;
+    gap: 20px;
     border-radius: 10px;
     background-color: cornflowerblue;
     color: white;
