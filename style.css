@@ -6,13 +6,10 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 2em 5em;
-
-    border: 2px solid black;
-
     background-color: wheat;
+    padding: 1em 1em;
 }
 
 .logo img {
@@ -20,41 +17,130 @@
     width: 150px;
 }
 
+.nav-list {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    font-weight: bold;
+}
+
 .hero-container {
     display: flex;
-    justify-content: space-between;
-    padding: 2em 5em;
-    gap: 50px;
-
+    justify-content: space-around;
+    padding: .5em 5em;
     background-color: wheat;
-
-    border: 2px solid blue;
 }
 
 .hero-section-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 12px;
+}
+
+.hero-container h1 {
+    font-size: 3.5rem;
 }
 
 .hero-section-one button {
     width: 100px;
     padding: .25em;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
 
 .hero-section-two img {
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
 }
 
-.nav-list {
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 2em 5em;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.information-section-two {
     display: flex;
     gap: 18px;
-    list-style: none;
-    font-weight: bold;
 }
 
 .information-card img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.information-card p {
+    text-align: center;
+}
+
+.quote-container {
+    padding: 2em 5em;
+    font-size: 26px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.quote-container .quote {
+    font-style: italic;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding: 5em 5em;
+}
+
+.cta-button-container {
+    display: flex;
+    gap: ;
+    padding: 2em 2em;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+}
+
+.cta-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.cta-button button {
+    width: 100px;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: lightblue;
+    font-size: small;
 }
